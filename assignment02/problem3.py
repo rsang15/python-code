@@ -2,7 +2,7 @@ import sys
 
 filename = sys.argv[1]
 f = open(filename, 'r')
-words[] = f.read().split()
+words = f.read().split()
 
 letters = dict(a={"first": 0, "middle": 0, "last": 0}, b={"first": 0, "middle": 0, "last": 0},
                c={"first": 0, "middle": 0, "last": 0}, d={"first": 0, "middle": 0, "last": 0},
